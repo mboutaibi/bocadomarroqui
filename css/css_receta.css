@@ -1,0 +1,36 @@
+/* Estilos específicos para la receta */
+
+.receta {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.receta img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.receta h2 {
+    color: #333;
+}
+
+.receta p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.receta ul, .receta ol {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.receta ul li, .receta ol li {
+    margin-bottom: 8px;
+}

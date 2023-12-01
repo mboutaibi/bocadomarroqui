@@ -1,0 +1,75 @@
+/* Estilos para la sección de categorías */
+.intro-categorias {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    padding-top: 20px;
+}
+.intro-categorias h2{
+   text-align: center;
+   text-decoration: underline;
+}
+
+.intro-categorias ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.intro-categorias ul:first-child {
+    justify-content: center; 
+}
+
+.intro-categorias li {
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+}
+
+.intro-categorias a {
+    color: #333;
+    text-decoration: none;
+}
+
+.intro-categorias a:hover {
+    text-decoration: underline;
+}
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.categorias .catimg {
+    width: 100%;
+    height: 260px; 
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+}
+.categorias img {
+    width: 100%;
+    height: auto;
+}
+
+
+.categorias h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.categorias p {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+
+
+
